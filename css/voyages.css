@@ -129,6 +129,7 @@ header{
   footer{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     color: white;
@@ -136,9 +137,39 @@ header{
 .copyright{
     padding-left:20px; 
 }
+.copyright p{
+  font-family: 'Fragmentcore';
+}
 .topbutton{
     display: flex;
     justify-content: center;
     align-items: center;
     padding-right: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.topbutton:hover{
+    opacity: 0.3;
+}
+.topbutton img{
+  height: 40px;
+  width: 40px;
+}
+.topbutton a:link{
+    font-family: 'TravelingTypewriter';
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+.topbutton a:visited{
+    font-family: 'TravelingTypewriter';
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+.topbutton a:active{
+    font-family: 'TravelingTypewriter';
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
 }
