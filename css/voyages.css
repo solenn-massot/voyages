@@ -1,0 +1,97 @@
+@font-face{
+    font-family: 'TravelingTypewriter';
+    src: url('../polices/TravelingTypewriter.ttf') format('TrueType');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Fragmentcore';
+    src: url('../polices/Fragmentcore.otf') format('OpenType');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html,body {
+    padding:0;
+    margin:0;
+    height:auto;
+    width: 100%;
+  }
+  #menu, #menu ul {
+    padding:0;
+    margin:0;
+    list-style: none;
+    text-align: center;
+  }
+  #logoheader{
+      width: 200px;
+  }
+  #menu li {
+    display:inline-block;
+    vertical-align: top;
+    position: relative;
+  }
+  #menu li li {
+    display:inherit;
+  }
+  #menu a {
+    display:block;
+    padding:5px 50px;
+    text-decoration: none;
+    color:#fff;
+    font-family: 'TravelingTypewriter';
+  }
+  #menu ul li a {
+    padding:5px 8px;
+  }
+  #menu ul {
+    position: absolute;
+    z-index: 1000;
+    min-width:100%;
+    white-space: nowrap;
+    text-align: left;
+  }
+  #menu ul ul {
+    left:100%;
+    top:0;
+    overflow: hidden;
+    max-width: 0;
+    min-width: 0;
+    transition: 0.3s all;
+  }
+  #menu ul li:hover ul {
+    max-width: 30em;
+  }
+  #menu ul li {
+    max-height:0;
+    overflow: hidden;
+    transition:all 0.8s;
+  }
+  #menu li li li {
+    max-height: inherit;
+  }
+  #menu li:hover li {
+    max-height: 15em;
+    overflow: visible;
+  }
+  /* background des liens menus */
+  .violet {
+  background-color: rgb(160, 160, 160);
+  background-image:linear-gradient(to bottom, rgb(160, 160, 160) 0%, rgb(62, 62, 63) 100%);
+  }
+  .violet li {
+      background:rgb(160, 160, 160)
+  }
+  .violet li:hover {
+      background:rgb(62, 62, 63)
+  }
+  .bleu {
+  background-color: rgb(160, 160, 160);
+  background-image:linear-gradient(to bottom, rgb(160, 160, 160) 0%, rgb(62, 62, 63) 100%);
+  }
+  .bleu li {
+      background:rgb(160, 160, 160)
+  }
+  .bleu li:hover {
+      background:rgb(62, 62, 63)
+  }
