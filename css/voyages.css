@@ -17,6 +17,9 @@ html,body {
     height:auto;
     width: 100%;
   }
+
+  /* -----Header-----*/
+
   #menu, #menu ul {
     padding:0;
     margin:0;
@@ -34,12 +37,20 @@ html,body {
   #menu li li {
     display:inherit;
   }
+  #menu ul li a{
+    width: 160px;
+  }
   #menu a {
     display:block;
     padding:5px 50px;
     text-decoration: none;
     color:#fff;
     font-family: 'TravelingTypewriter';
+  }
+  .imgflag {
+      width: 40px;
+      float: left;
+      padding-right: 3px;
   }
   #menu ul li a {
     padding:5px 8px;
@@ -60,7 +71,7 @@ html,body {
     transition: 0.3s all;
   }
   #menu ul li:hover ul {
-    max-width: 30em;
+    max-width: 50em;
   }
   #menu ul li {
     max-height:0;
@@ -95,3 +106,22 @@ html,body {
   .bleu li:hover {
       background:rgb(62, 62, 63)
   }
+
+  /* -----Footer-----*/
+
+  footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    color: white;
+}
+.copyright{
+    padding-left:20px; 
+}
+.topbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+}
