@@ -19,8 +19,6 @@ html,body {
   }
 header{
   background-color:#F7F5F5;
-  border-bottom-right-radius: 30px;
-  border-bottom-left-radius: 30px;
   display: flex;
   justify-content: space-evenly;
 }
