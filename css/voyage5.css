@@ -78,3 +78,63 @@
       100%{
           opacity: 1;
           }
+#div-maison{
+    display:flex;
+    align-items:center;
+    flex-direction:row;
+    background-color:rgba(255, 255, 255, 0.75);
+}
+#maison{
+    z-index:1;
+    border-radius:50px;
+    width:30%;
+}
+#texte-house{
+    display:none;
+}
+#maison:hover + #texte-house{
+    display:block;
+    animation: hola 2s ease-in-out;
+  }
+  @keyframes hola{
+    0% {transform: translateX(-150px);
+      opacity: 0;}
+  }
+  50%{
+          transform: translateX(-50px);
+          opacity: 0.5;
+          }
+      100%{
+          opacity: 1;
+          }
+#div-tramway{
+    display:flex;
+    align-items:center;
+    flex-direction:row;
+    background-color:rgba(255, 255, 255, 0.75);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+#tramway{
+    z-index:1;
+    border-radius:50px;
+    width:30%;
+}
+#texte-tramway{
+    display:none;
+}
+#tramway:hover + #texte-tramway{
+    display:block;
+    animation: hola 2s ease-in-out;
+  }
+  @keyframes hola{
+    0% {transform: translateX(-150px);
+      opacity: 0;}
+  }
+  50%{
+          transform: translateX(-50px);
+          opacity: 0.5;
+          }
+      100%{
+          opacity: 1;
+          }
