@@ -138,3 +138,23 @@
       100%{
           opacity: 1;
           }
+#info-sf{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:2%;
+}
+.section-sf{
+    background-color:rgb(63, 90, 116);
+    font-family: 'Fragmentcore';
+    font-size:30px;
+    color:white;
+    padding:20px;
+    margin:1%;
+    border-radius:20px;
+}
+#anecdote-sf{
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    background-color:rgba(255, 255, 255, 0.75);
+}
