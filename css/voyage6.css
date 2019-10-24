@@ -10,3 +10,19 @@
     font-weight: normal;
     font-style: normal;
 }
+#main-cluj{
+    background-image: url("../images/Cluj Napoca/fond.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:40px;
+}
+#video-cluj{
+    border-radius:40px;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+}
+#body-cluj{
+    background-color:rgb(99, 87, 49);
+}
