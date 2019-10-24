@@ -141,6 +141,18 @@
 	color: white;
 	text-decoration: none;
 }
+#links a:active{
+	font-family: 'Fragmentcore';
+	font-size: 30px;
+	color: white;
+	text-decoration: none;
+}
+#links a:visited{
+	font-family: 'Fragmentcore';
+	font-size: 30px;
+	color: white;
+	text-decoration: none;
+}
 #links a:hover{
 	opacity: 0.3;
 }
