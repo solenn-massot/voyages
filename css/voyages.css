@@ -203,3 +203,128 @@ header{
 .imgformaccueil{
   width: 100px;
 }
+
+/* Formulaire */
+#formulaireaccueil{
+  display: flex;
+  justify-content: center;
+}
+#enteteformulaire {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+#titleconnexion {
+  font-family: 'TravelingTypewriter';
+  font-size: 20px;
+  color: #262626;
+}
+
+#containercontact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 350px;
+}
+
+#containervalid {
+  display: flex;
+  justify-content: center;
+  height: 60px;
+}
+
+#cvalid {
+  height: 55px;
+  width: 280px;
+  border-radius: 20px;
+  border: 2px solid #12053a;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 5px;
+  background-color: white;
+}
+
+#cvalid:hover {
+  border: none;
+  color: white;
+  background-image: linear-gradient(to right, gray, black);
+  transform: scale(1.1);
+  transition: 0.25s ease-in-out;
+}
+
+#mail {
+  height: 55px;
+  width: 360px;
+  font-size: 18px;
+  border: 2px solid black;
+  border-radius: 6px;
+  padding-left: 10px;
+  background-color: white;
+  color: grey;
+}
+
+#mail:focus {
+  border: 2px solid red;
+}
+
+#mail:focus::placeholder {
+  color: grey;
+}
+
+#mail::placeholder {
+  color: black;
+}
+
+#cmail {
+  height: 70px;
+  width: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cpres {
+  height: 180px;
+  width: 360px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#pres {
+  height: 180px;
+  width: 360px;
+  font-size: 18px;
+  border: 2px solid black;
+  border-radius: 6px;
+  padding-left: 10px;
+  background-color: white;
+  resize: none;
+  font-family: sans-serif;
+}
+
+#pres::placeholder {
+  color: black;
+  padding-top: 3px;
+}
+
+#pres:focus {
+  border: 2px solid red;
+}
+
+#pres:focus::placeholder {
+  color: grey;
+}
+
+#containerformulaire {
+  width: 40%;
+  padding-bottom: 20px;
+}
