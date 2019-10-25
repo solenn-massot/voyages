@@ -40,6 +40,10 @@
 	border: solid white;
 	border-radius: 20px;
 	padding: 10px;
+	-webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 2s ease-in-out;
+    transition: 2s ease-in-out;
 }
 #navlb img{
     width: 50px;
@@ -103,6 +107,10 @@
 	justify-content: flex-start;
 	width: 40%;
 	padding: 20px;
+	-webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 2s ease-in-out;
+    transition: 2s ease-in-out;
 }
 #right{
 	display: flex;
@@ -112,6 +120,10 @@
 	background-color: rgba(255,0,0,0.5);
 	width: 40%;
 	padding: 20px;
+	-webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 2s ease-in-out;
+    transition: 2s ease-in-out;
 }
 .gallery {
   margin: 5px;

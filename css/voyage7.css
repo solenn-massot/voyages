@@ -39,6 +39,10 @@
 	border: solid white;
 	border-radius: 20px;
 	padding: 10px;
+	-webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 2s ease-in-out;
+    transition: 2s ease-in-out;
 }
 #navlb img{
     width: 50px;
