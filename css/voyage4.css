@@ -209,3 +209,10 @@
     margin-left: auto;
     margin-right:auto;
 }
+#map-kyoto{
+    border-radius:40px;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:5%;
+}
